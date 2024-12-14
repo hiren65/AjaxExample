@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\hiren\\OneDrive\\Desktop\\Projects\\AjaxQuery\\AjaxQuery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|c:\\users\\hiren\\onedrive\\desktop\\projects\\ajaxquery\\ajaxquery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|c:\\users\\hiren\\onedrive\\desktop\\projects\\ajaxquery\\ajaxquery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|c:\\users\\hiren\\onedrive\\desktop\\projects\\ajaxquery\\ajaxquery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E19D9026-5FEA-4192-8DE3-9CF38D5D142F}|AjaxQuery.csproj|c:\\users\\hiren\\onedrive\\desktop\\projects\\ajaxquery\\ajaxquery\\views\\ajax\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Views\\Ajax\\Index.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T09:21:51.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:21:51.417Z"
             },
             {
               "$type": "Document",
@@ -51,25 +50,24 @@
               "RelativeToolTip": "Controllers\\AjaxController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T09:20:51.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:20:51.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Projects\\AjaxQuery\\AjaxQuery\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Projects\\AjaxQuery\\AjaxQuery\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwCEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T23:46:12.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Projects\\AjaxQuery\\AjaxQuery\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",

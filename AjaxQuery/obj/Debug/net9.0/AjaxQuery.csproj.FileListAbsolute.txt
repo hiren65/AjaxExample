@@ -97,3 +97,4 @@ C:\Users\hiren\OneDrive\Desktop\Projects\AjaxQuery\AjaxQuery\obj\Debug\net9.0\Aj
 C:\Users\hiren\OneDrive\Desktop\Projects\AjaxQuery\AjaxQuery\obj\Debug\net9.0\AjaxQuery.genruntimeconfig.cache
 C:\Users\hiren\OneDrive\Desktop\Projects\AjaxQuery\AjaxQuery\obj\Debug\net9.0\ref\AjaxQuery.dll
 C:\Users\hiren\OneDrive\Desktop\Projects\AjaxQuery\AjaxQuery\obj\Debug\net9.0\compressed\xhet7z6yaw-o1o13a6vjx.gz
+C:\Users\hiren\OneDrive\Desktop\Projects\AjaxQuery\AjaxQuery\obj\Debug\net9.0\AjaxQuery.sourcelink.json
