@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<style  >
+    li{
+        padding:3px;
+        list-style:none;
+    }
+</style>
+<script src="~/lib/jquery/dist/jquery-3.7.1.min.js">   </script>
+<div>
+    <h1>Index</h1>
+    <p>Use this page to call the GetSum method in the Home controller.</p>
+ </div>
+ <div>
+     <ul>
+        <li>
+            <label> Enter Value </label>
+            <input type="text" id="txt" />
+        </li>
+        <li>
+            <label> Enter Value </label>
+            <input type="text" id="txt2" />
+        </li>
+        <li>     <label id="ans">      </label>  </li>
+     </ul>
+        <br />
+     <input type="button" id="btn" value="Click Me" />
+ </div>
+
+
+ <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                value1 = $("#txt").val();
+                value2 = $("#txt2").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/Ajax/GetSum",
+                    data: { value11: value1, value22: value2 },
+                    dataType: "text",
+                    success: function (response) {
+                        alert(response);
+                        console.log(response);
+                        $("#ans").html( "Total "+ response);
+                    },
+                    error: function (req, status, error) {
+                        alert("Error");
+                        console.log(error);
+                    }
+                });
+            });
+        });
+ </script>

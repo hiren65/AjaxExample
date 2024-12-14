@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    li{
+        list-style:none;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Welcome to Example Ajax</h1>
+    <ul>
+        <li>
+            <a href="@Url.Action("Index","Ajax")"> Next Page  </a>
+        </li>
+    </ul>
+</div>
+<div>
+    <label id="ans">  </label>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+        value1 = 20;
+        value2 = 30;
+        $.ajax({
+            type: "POST",
+            //url: "/Home/GetSum",
+            url: "@Url.Action("GetSum")",
+            data: { value11: value1,value22: value2 },
+            dataType:"text",
+            success: function (response) {
+               // alert(response);
+                $("#ans").html( "Preloaded Sum " +    response);
+            },
+            error: function (req,status,error) {
+                alert("Error");
+            }
+        });
+
+
+       // alert("Hello World");
+    });
+
+
+
+</script>
+
