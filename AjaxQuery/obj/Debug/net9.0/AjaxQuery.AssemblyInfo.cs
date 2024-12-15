@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AjaxQuery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dc816021094f337ae5c878384d3f748796354a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68a715f7139bcd1d70cf99d41e1a2cb5ff0a5836")]
 [assembly: System.Reflection.AssemblyProductAttribute("AjaxQuery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AjaxQuery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
